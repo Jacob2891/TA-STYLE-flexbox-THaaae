@@ -1,0 +1,82 @@
+<!-- 
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Use flexbox properties and values to create columns.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fender</title>
+    <link rel="stylesheet" href="/assets/style/style.css">
+</head>
+<body>
+    <header class="header">
+           <div>
+            <img class="logo" src="/assets/media/Fender-Logo.png" alt="fender Fender-Logo">
+           </div>
+            <nav class="pointers">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact Us</a>
+            </nav>
+    </header>
+    <main>
+        <article class="container">
+          <section class="box1">
+            <div class="mainbox1"> 
+                 <h1>Fender Stratocaster</h1>
+                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, veniam facilis. Neque impedit rem molestiae natus hic omnis nobis laboriosam magnam officia quidem. Minima molestiae dolorum odit necessitatibus nulla magni. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum vero praesentium odit a est, magni perspiciatis optio beatae quas nostrum ducimus nemo architecto, rem aut, rerum debitis reiciendis sunt nam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit repellat nulla eum, harum voluptatibus minus aliquam eos asperiores necessitatibus enim fugiat rerum ipsam labore iusto illum consequuntur architecto omnis nisi!</p> 
+            </div>
+            <div class="mainbox1">
+                 <img src="/assets/media/strat.jpg" alt="Stratocaster">
+            </div>
+          </section>
+            <!-- Gallery -->
+            <div>
+            <h3 class="subhead">Gallery</h3>
+            </div>
+            <Section class="gallery">  
+                <br>
+                   <div class="image1">
+                   <img src="/assets/media/download.jpg" alt="img1">
+               </div>
+
+               <div class="image1">
+                <img src="/assets/media/feat-march-28-7.jpg" alt="img2">
+               </div>
+
+               <div class="image1">
+                <img src="/assets/media/gibson-es-335.jpg" alt="img3">
+               </div>
+
+               <div class="image1">
+                <img src="/assets/media/gibson-les-paul.jpg" alt="img4">
+               </div>
+
+               <div class="image1">
+                <img src="/assets/media/jimihendrix.jpg" alt="img5">
+               </div>
+
+               <div class="image1">
+               <img src="/assets/media/strat.jpg" alt="img6">
+               </div>
+            </Section>
+            </article>
+    </main>
+    <section class="footer">
+        <p class="footerpara">&copy; Fender inc.</p> ;
+     </section>
+</body>
+</html>
